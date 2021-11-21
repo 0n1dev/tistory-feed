@@ -27,7 +27,8 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: RUN
-      run: java ./build/libs/tistory-rss-1.0-SNAPSHOT.jar
+      run: |
+        java -jar ./build/libs/tistory-rss-1.0-SNAPSHOT.jar
     - name: Commit README
       run: |
         git add .
