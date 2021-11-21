@@ -1,4 +1,4 @@
-import rss.utils.RssParser;
+import utils.RssParser;
 
 import java.io.*;
 import java.util.ArrayList;

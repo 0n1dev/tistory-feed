@@ -1,6 +1,6 @@
-package rss.utils;
+package utils;
 
-import rss.model.Feed;
+import model.Feed;
 
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLInputFactory;
