@@ -28,7 +28,7 @@ jobs:
       run: ./gradlew build
     - name: RUN
       run: |
-        java -jar ./build/libs/tistory-rss-1.0-SNAPSHOT.jar
+        java -jar build/libs/tistory-rss-1.0-SNAPSHOT.jar
     - name: Commit README
       run: |
         git add .
